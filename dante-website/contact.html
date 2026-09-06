@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Booking — DANTE | Premium Mobile Car Detailing</title>
+<meta name="description" content="Request an appointment with DANTE. Tell us about your vehicle and what it needs — we'll personally confirm your appointment, timing and final treatment.">
+<link rel="icon" href="assets/img/logo-mark.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="contact">
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">Contact &amp; Booking</span>
+      <h1 class="h1">Request an Appointment</h1>
+      <p class="lede">Tell us about your vehicle and what it needs. This is a request — we'll personally confirm your appointment, timing and final treatment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap form-layout">
+
+      <div class="form-side">
+        <div class="side-card">
+          <span class="eyebrow">Contact</span>
+          <p>Email — coming soon</p>
+          <p>Phone — coming soon</p>
+          <p class="body-faint">Belgium — service area to be announced</p>
+        </div>
+        <div class="side-card note">
+          <div class="side-card-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><circle cx="12" cy="16.2" r="0.9" fill="currentColor"/></svg>
+            <h5>Before you book</h5>
+          </div>
+          <ul>
+            <li>Please remove personal belongings from the vehicle before the appointment.</li>
+            <li>Every appointment starts with an inspection — the final treatment may be adjusted after inspection, always with your agreement.</li>
+            <li>Same-day requests are sometimes possible when availability allows.</li>
+          </ul>
+        </div>
+      </div>
+
+      <form class="form-panel" id="booking-form">
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+32 ...">
+          </div>
+          <div class="field">
+            <label for="vehicle">Vehicle Make &amp; Model *</label>
+            <input type="text" id="vehicle" name="vehicle" placeholder="e.g. Volkswagen Golf" required>
+          </div>
+          <div class="field">
+            <label for="vehicle-type">Vehicle Type</label>
+            <select id="vehicle-type" name="vehicle-type">
+              <option value="">Select...</option>
+              <option>Hatchback</option>
+              <option>Sedan</option>
+              <option>Estate / Wagon</option>
+              <option>SUV</option>
+              <option>Van</option>
+              <option>Convertible</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="service">Desired Service *</label>
+            <select id="service" name="service" required>
+              <option value="">Select...</option>
+              <option>Interior Detail</option>
+              <option>Deep Interior Detail</option>
+              <option>Exterior Detail</option>
+              <option>Deep Exterior Detail</option>
+              <option>Full Detail</option>
+              <option>Not sure — advise me</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="date">Preferred Date</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="field">
+            <label for="time">Preferred Time</label>
+            <select id="time" name="time">
+              <option value="">Select...</option>
+              <option>Morning</option>
+              <option>Early afternoon</option>
+              <option>Late afternoon</option>
+              <option>Evening</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Anything we should know — condition of the vehicle, pet hair, stains, location details..."></textarea>
+          </div>
+
+          <div class="field full">
+            <label>Vehicle Photos (optional, max 8)</label>
+            <div class="upload-drop">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 15V4M8 8l4-4 4 4M4 16v3a2 2 0 002 2h12a2 2 0 002-2v-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Add photos of your vehicle — helps us assess its condition beforehand</span>
+            </div>
+            <input type="file" id="photos" name="photos" accept="image/*" multiple hidden>
+            <div class="upload-filenames"></div>
+          </div>
+        </div>
+
+        <p class="form-disclaimer">This is a booking request, not a payment. We'll confirm availability and details personally. The final treatment may be adjusted after vehicle inspection — any additional work is discussed and agreed before it's performed.</p>
+
+        <button type="submit" class="btn btn-gold">Request an Appointment</button>
+        <p class="form-status" role="status"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

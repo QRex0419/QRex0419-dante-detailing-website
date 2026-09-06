@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ginterior" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1c1c"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <pattern id="pinterior" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M0 26L26 0" stroke="#ffffff" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="220" fill="url(#ginterior)"/>
+  <rect width="400" height="220" fill="url(#pinterior)"/>
+  <g transform="translate(200,110)" stroke="#A88A4A" stroke-width="1.4" fill="none" opacity="0.9">
+    <path d="M-46,-4 h92 a10,10 0 0 1 10,10 v18 h-112 v-18 a10,10 0 0 1 10,-10 z" /><path d="M-58,24 h116" stroke-linecap="round"/><circle cx="-40" cy="24" r="6"/><circle cx="40" cy="24" r="6"/><path d="M-30,-4 v-20 a8,8 0 0 1 8,-8 h44 a8,8 0 0 1 8,8 v20" />
+  </g>
+</svg>
